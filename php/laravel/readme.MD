@@ -4,7 +4,7 @@
 1. copy `webhook.sh` to laravel base directory.
 2. make `webhook.sh` executable.  
     ```bash 
-    chmod 777 webhook.sh
+    chmod +x webhook.sh
     ``` 
 3. copy `WebhookController.php` to your laravel controllers folder. and make sure that the `namespace` are correctly.   
 4. go to `config/app.php` then add this to the array.   
